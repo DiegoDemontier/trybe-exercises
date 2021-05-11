@@ -1,2 +1,3 @@
-# trybe-exercises
-Repositório de exercícios da Trybe 
+# Repositório de exercícios
+
+Esse repositório possui todo meu trabalho feito na jornada da Trybe. 
