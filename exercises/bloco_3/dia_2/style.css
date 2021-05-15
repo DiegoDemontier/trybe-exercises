@@ -1,0 +1,33 @@
+h1{
+  font-family: sans-serif;
+  font-size: 65px;
+  color: orange;
+}
+
+li{
+  background-color: black;
+}
+
+.mudaCor{
+  background-color: purple;
+}
+
+body{
+  font-size: 16px;
+}
+
+p{
+  font-weight: 600;
+  font-size: 3em;
+}
+
+#amarelo{
+  background-color: yellow;
+}
+#vermelho{
+  background-color: red;
+}
+#marron{
+  background-color: brown;
+}
+
