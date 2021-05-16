@@ -1,0 +1,30 @@
+div :hover {
+  font-style: italic;
+  border-width: 10px;
+  border-style: solid;
+  border-color:rgb(13, 144, 188);
+}
+
+div:nth-of-type(odd):hover {
+  font-style: italic;
+}
+
+div:nth-of-type(1):hover {
+  color: rgb(225, 96, 16);
+}
+
+div:nth-of-type(2):hover {
+  color: blue;
+}
+
+div:nth-of-type(3):hover {
+  font-size: 30px;
+  color: brown;
+}
+
+div:nth-of-type(4):hover {
+  color: blueviolet;
+}
+
+div:nth-of-type(5):hover {
+  color: rgb(23, 160, 37);
