@@ -6,9 +6,9 @@ if (salario <= 1556.94) {
   salario -= salario*0.08;
 } else if (salario >= 1556.95 && salario <= 2594.92) {
   salario -= salario*0.09;
-}else if (salario >= 2594.93 && salario <= 5189.82) {
+} else if (salario >= 2594.93 && salario <= 5189.82) {
   salario -= salario*0.11;
-}else if (salario > 5189.82) {
+} else if (salario > 5189.82) {
   salario -= 570.88;
 }
 
