@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Criando um formulário de currículo</title>
+</head>
+<body>
+  <form action="" method="GET" >
+  <fieldset>
+      <label for="name">Nome:</label>
+      <input id="name" type="text" maxlength="40" name="nome">
+      <br>
+      <label for="email">Email:</label>
+      <input id="email" type="email" maxlength="50" name="email">
+      <br>
+      <label for="cpf">CPF:</label>
+      <input type="text" maxlength="11" required name="cpf" id="cpf">
+      <br>
+      <label for="endereco">Endereço:</label>
+      <input type="text" maxlength="200" required name="endereco" id="endereco">
+      <br>
+      <label for="cidade">Cidade:</label>
+      <input type="text" maxlength="28" required name="cidade" id="cidade">
+      <br>
+      <label for="estado">Estado:</label>
+      <select name="estado" id="estado" required>
+        <option value="ce">Ceara</option>
+      </select>
+      <br>
+      <label for="tipo">Casa:</label>
+      <input type="radio" name="tipo" id="tipo" required value="casa" checked>
+      <label for="tipo">Apartamento:</label>
+      <input type="radio" name="tipo" id="tipo" required value="apartamento">
+      <br>
+    </fieldset>
+    <fieldset>
+      <label for="resumo">Resumo do currículo:</label>
+      <textarea name="resumo" id="resumo" cols="30" rows="10" maxlength="1000" required></textarea>
+      <br>
+      <label for="cargo">Cargo:</label>
+      <input type="text" maxlength="40" required name="cargo" id="cargo">
+      <br>
+      <label for="descr-Cargo">Descrição do cargo:</label>
+      <input type="text" maxlength="500" required name="descrCargo" id="descr-Cargo">
+      <br>
+      <label for="data">Data de início:</label>
+      <input type="text" maxlength="8" required name="data" id="data">
+    </fieldset>
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="/script.js"></script>
+</body>
+</html>
