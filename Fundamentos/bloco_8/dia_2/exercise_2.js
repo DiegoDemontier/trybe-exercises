@@ -67,9 +67,19 @@ const books = [
 /* 2 - Retorne o nome do livro de menor nome. */
 
 function smallerName() {
-  let nameBook;
   // escreva aqui o seu código
+  let compare = 999;
+  let nameBook
 
+  books.forEach((element) => {
+    if (element.name.length < compare) {
+      compare = element.name.length;
+      nameBook = element.name;
+    } 
+  })
   // Variável nameBook que receberá o valor do menor nome;
   return nameBook;
 }
+
+assert.strictEqual(smallerName(), 'Duna');
+
