@@ -1,11 +1,10 @@
 const rightAnswers = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const studentAnswers = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
-const check = (gabarito, respstas, func) => {
+const check = (gabarito, respstas, callback) => {
   let counter = 0
   for (let index = 0; index < gabarito.length; index += 1) {
-    const checkRespostas = func (gabarito[index], respstas[index])
-    console.log(checkRespostas)
+    const checkRespostas = callback (gabarito[index], respstas[index])
     counter += checkRespostas;    
   }
   return counter;
