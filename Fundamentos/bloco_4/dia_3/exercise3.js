@@ -1,19 +1,21 @@
 let n = 5;
-let matriz = '';
+let linha = '';
 let cont = n;
 
-if (n > 1) {
+//if (n > 1) {
   for (let i = 1; i <= n; i += 1) {
-    matriz = '';
+    linha = '';
     for (let ii = 1; ii <= n; ii += 1) {
       if(ii >= cont) {
-        matriz += '*';  
+        linha += '*';  
       }else {
-        matriz += ' ';
+        linha += ' ';
       }
     }
+    console.log(linha);
     cont -= 1; 
-    console.log(matriz);
   }
-}
+
+
+//}
 
